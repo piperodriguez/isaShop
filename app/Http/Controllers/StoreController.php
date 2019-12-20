@@ -23,4 +23,12 @@ class StoreController extends Controller
         $data['productos'] = $productos;
     	return view('store.index', compact('data'));
     }
+
+    public function show($slug)
+    {
+        $producto = $this->_model->where('slug', $slug)->first();
+        $data = array();
+        $data['producto'] = $producto;
+        return view('store.show', compact('data'));
+    }
 }
