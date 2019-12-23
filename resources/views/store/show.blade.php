@@ -4,6 +4,7 @@
 		<div class="page-header">
 			<h1><i class="fas fa-shopping-cart"></i> Detalle del producto</h1>
 		</div>
+		<hr>
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="product-block">
@@ -21,7 +22,7 @@
 							</span>
 						</h4>
 						<p>
-							<a class="btn btn-warning" href="#">Lo quiero <i class="fas fa-cart-plus fa-2x"></i></a>
+							<a class="btn btn-danger" href="#"> <i class="fas fa-cart-plus fa-2x"></i></a>
 						</p>
 					</div>
 				</div>

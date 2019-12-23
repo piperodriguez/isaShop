@@ -1,10 +1,12 @@
 body{
-	background-color: whitesmoke;
+	background-color: orange;
 	font-family: 'Montserrat', sans-serif !important;
 }
 /*nav*/
 
-
+hr {
+	color: white !important;
+}
 
 /*footer*/
 footer{
@@ -12,13 +14,15 @@ footer{
 	text-align: center;
 }
 
-footer h3{
+footer h4{
 	color: white;
 }
+
 
 footer p{
 	color: white;
 	text-align: justify;
+	font-size: 12px;
 }
 
 ul.redes li
@@ -86,10 +90,6 @@ transition: all 0.3s ease-in-out;
     margin-top: 5% !important;
 
 }
-
-
-
-
 
 #navegacion {
 
